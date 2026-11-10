@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#E65100" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Lotus Petals (Center, Saffron) -->
+  <g filter="url(#shadow)">
+    <!-- Central Upright Petal -->
+    <path d="M 50 12 C 45 28 42 42 50 62 C 58 42 55 28 50 12 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Inner Left Petal -->
+    <path d="M 47 22 C 34 32 30 46 45 63 C 41 48 42 34 47 22 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Inner Right Petal -->
+    <path d="M 53 22 C 66 32 70 46 55 63 C 59 48 58 34 53 22 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Mid Left Petal -->
+    <path d="M 40 32 C 22 42 18 56 40 65 C 32 54 34 42 40 32 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Mid Right Petal -->
+    <path d="M 60 32 C 78 42 82 56 60 65 C 68 54 66 42 60 32 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Outer Left Wing Petal -->
+    <path d="M 32 44 C 12 52 8 66 34 68 C 22 62 24 52 32 44 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Outer Right Wing Petal -->
+    <path d="M 68 44 C 88 52 92 66 66 68 C 78 62 76 52 68 44 Z" fill="url(#saffronGrad)" stroke="#B71C1C" stroke-width="0.75" />
+    
+    <!-- Base Lotus Leaves (Green) -->
+    <!-- Base Center Stem & Pod -->
+    <ellipse cx="50" cy="67" rx="8" ry="3.5" fill="#C62828" />
+    
+    <!-- Left Leaf -->
+    <path d="M 50 68 C 30 68 15 72 20 80 C 32 82 44 76 50 71 Z" fill="url(#greenGrad)" stroke="#0D5302" stroke-width="0.75" />
+    
+    <!-- Right Leaf -->
+    <path d="M 50 68 C 70 68 85 72 80 80 C 68 82 56 76 50 71 Z" fill="url(#greenGrad)" stroke="#0D5302" stroke-width="0.75" />
+
+    <!-- Center Leaves / Base calyx -->
+    <path d="M 42 70 C 46 76 54 76 58 70 C 54 73 46 73 42 70 Z" fill="#138808" />
+    
+    <!-- Stem -->
+    <path d="M 48 72 C 48 83 49 90 50 93 C 51 90 52 83 52 72 Z" fill="url(#greenGrad)" />
+  </g>
+</svg>
+

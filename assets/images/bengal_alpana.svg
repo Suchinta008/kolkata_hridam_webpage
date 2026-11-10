@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="alpanaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5832B" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#E8B868" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#881B09" stop-opacity="0.04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Traditional Bengal Alpana Paisley & Lotus Motif -->
+  <g fill="none" stroke="url(#alpanaGrad)" stroke-width="2">
+    <!-- Center Lotus Core -->
+    <circle cx="250" cy="250" r="30" stroke-width="2" />
+    <circle cx="250" cy="250" r="15" fill="#C5832B" fill-opacity="0.06" />
+    <circle cx="250" cy="250" r="6" fill="#881B09" fill-opacity="0.15" />
+
+    <!-- 8 Lotus Petals in Circle -->
+    <g stroke-width="1.8">
+      <path d="M 250 220 C 235 180 265 180 250 220 Z" />
+      <path d="M 250 280 C 235 320 265 320 250 280 Z" />
+      <path d="M 220 250 C 180 235 180 265 220 250 Z" />
+      <path d="M 280 250 C 320 235 320 265 280 250 Z" />
+      <path d="M 229 229 C 195 195 215 175 229 229 Z" />
+      <path d="M 271 271 C 305 305 285 325 271 271 Z" />
+      <path d="M 271 229 C 305 195 325 215 271 229 Z" />
+      <path d="M 229 271 C 195 305 175 285 229 271 Z" />
+    </g>
+
+    <!-- Concentric Radiating Rings with Dotted Patterns -->
+    <circle cx="250" cy="250" r="80" stroke-width="1.5" />
+    <circle cx="250" cy="250" r="95" stroke-dasharray="4,4" stroke-width="1.2" />
+    <circle cx="250" cy="250" r="140" stroke-width="1.5" />
+    <circle cx="250" cy="250" r="155" stroke-dasharray="6,4" stroke-width="1.2" />
+    <circle cx="250" cy="250" r="210" stroke-width="2" />
+    <circle cx="250" cy="250" r="230" stroke-dasharray="8,6" stroke-width="1.5" />
+
+    <!-- Traditional Kalka (Mango/Paisley) Curvatures on Perimeter -->
+    <g stroke-width="1.5" fill="#E8B868" fill-opacity="0.03">
+      <!-- Top Paisley -->
+      <path d="M 250 40 C 290 80 280 140 250 140 C 220 140 210 80 250 40 Z" />
+      <!-- Bottom Paisley -->
+      <path d="M 250 460 C 290 420 280 360 250 360 C 220 360 210 420 250 460 Z" />
+      <!-- Left Paisley -->
+      <path d="M 40 250 C 80 210 140 220 140 250 C 140 280 80 290 40 250 Z" />
+      <!-- Right Paisley -->
+      <path d="M 460 250 C 420 210 360 220 360 250 C 360 280 420 290 460 250 Z" />
+    </g>
+
+    <!-- Diagonal Flourishes (Traditional Bengal Alpana drops) -->
+    <g fill="#881B09" fill-opacity="0.08" stroke="none">
+      <circle cx="102" cy="102" r="8" />
+      <circle cx="398" cy="102" r="8" />
+      <circle cx="102" cy="398" r="8" />
+      <circle cx="398" cy="398" r="8" />
+      <circle cx="250" cy="100" r="6" />
+      <circle cx="250" cy="400" r="6" />
+      <circle cx="100" cy="250" r="6" />
+      <circle cx="400" cy="250" r="6" />
+    </g>
+  </g>
+</svg>
+

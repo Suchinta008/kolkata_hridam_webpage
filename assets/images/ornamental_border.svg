@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20" viewBox="0 0 120 20" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5832B" />
+      <stop offset="50%" stop-color="#E8B868" />
+      <stop offset="100%" stop-color="#C5832B" />
+    </linearGradient>
+  </defs>
+  <!-- Background band -->
+  <rect width="120" height="20" fill="#881B09" opacity="0.95"/>
+  <!-- Top and bottom gold lining -->
+  <line x1="0" y1="1.5" x2="120" y2="1.5" stroke="url(#goldGradient)" stroke-width="1.5"/>
+  <line x1="0" y1="18.5" x2="120" y2="18.5" stroke="url(#goldGradient)" stroke-width="1.5"/>
+  <line x1="0" y1="4" x2="120" y2="4" stroke="#DDA847" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="16" x2="120" y2="16" stroke="#DDA847" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Repeating Motif 1 (at x=20) -->
+  <g transform="translate(20, 10)">
+    <circle cx="0" cy="0" r="4.5" fill="#C5832B" />
+    <circle cx="0" cy="0" r="3" fill="#FFF2D6" />
+    <circle cx="0" cy="0" r="1.5" fill="#881B09" />
+    <polygon points="-8,0 -5,-3 -2,0 -5,3" fill="#E8B868" />
+    <polygon points="8,0 5,-3 2,0 5,3" fill="#E8B868" />
+    <polygon points="0,-8 -3,-5 0,-2 3,-5" fill="#E8B868" />
+    <polygon points="0,8 -3,5 0,2 3,5" fill="#E8B868" />
+  </g>
+
+  <!-- Repeating Motif 2 (at x=60) -->
+  <g transform="translate(60, 10)">
+    <!-- Kalash / Diamond flower motif -->
+    <path d="M0,-6 L5,-1 L3,5 L-3,5 L-5,-1 Z" fill="#E8B868" />
+    <circle cx="0" cy="0" r="2.2" fill="#881B09" />
+    <circle cx="-10" cy="0" r="1.5" fill="#E8B868" />
+    <circle cx="10" cy="0" r="1.5" fill="#E8B868" />
+  </g>
+
+  <!-- Repeating Motif 3 (at x=100) -->
+  <g transform="translate(100, 10)">
+    <circle cx="0" cy="0" r="4.5" fill="#C5832B" />
+    <circle cx="0" cy="0" r="3" fill="#FFF2D6" />
+    <circle cx="0" cy="0" r="1.5" fill="#881B09" />
+    <polygon points="-8,0 -5,-3 -2,0 -5,3" fill="#E8B868" />
+    <polygon points="8,0 5,-3 2,0 5,3" fill="#E8B868" />
+    <polygon points="0,-8 -3,-5 0,-2 3,-5" fill="#E8B868" />
+    <polygon points="0,8 -3,5 0,2 3,5" fill="#E8B868" />
+  </g>
+</svg>
+
